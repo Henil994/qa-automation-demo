@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "3945db4d-78d4-4266-ae0f-d42438024aab",
+		"name": "My Collection",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48198951",
+		"_collection_link": "https://patelhenil20320-9657295.postman.co/workspace/Henil-Patel's-Workspace~3a3eabd1-a073-49d8-8ed5-7b2a47e72fde/collection/48198951-3945db4d-78d4-4266-ae0f-d42438024aab?action=share&source=collection_link&creator=48198951"
+	},
+	"item": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts\n",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts\n",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts/1\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1\n",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
